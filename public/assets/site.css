@@ -915,9 +915,8 @@ button.card[aria-pressed="true"] .boxck svg{opacity:1}
 @media (max-width:640px){.mod summary{grid-template-columns:46px 1fr;padding:16px}.mod .tg{display:none}.mod .mn{width:46px;height:46px}.mod ul{padding:0 16px 16px}}
 
 /* testimonials (video) */
-.tvids{display:grid;grid-template-columns:1.25fr 1fr;gap:20px}
+.tvids{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
 @media (max-width:980px){.tvids{grid-template-columns:1fr}}
-.tvids .side{display:grid;gap:20px}
 .tvid{border:1px solid var(--line);border-radius:20px;overflow:hidden;background:var(--card);display:flex;flex-direction:column;transition:border-color .3s,box-shadow .3s}
 .tvid:hover{border-color:rgba(240,103,58,.3);box-shadow:0 0 50px -18px rgba(240,103,58,.45)}
 .tvid .vw{position:relative;aspect-ratio:16/9;background:#000;cursor:pointer}
@@ -1016,4 +1015,4 @@ button.card[aria-pressed="true"] .boxck svg{opacity:1}
 .orbit .s2{animation-delay:-1.5s}.orbit .s3{animation-delay:-3s}.orbit .s4{animation-delay:-4.5s}
 .float-chip.l{left:-90px;top:18%}.float-chip.r{right:-90px;top:62%}
 .proof .im img.fit{object-fit:contain;padding:12px;background:#fff}
-.tvids>.tvid blockquote{font-size:clamp(19px,1.8vw,24px)}
+.tvids>.tvid blockquote{font-size:clamp(17px,1.35vw,19.5px)}
